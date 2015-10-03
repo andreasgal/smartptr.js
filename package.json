@@ -1,6 +1,6 @@
 {
   "name": "smartptr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smart pointers for JavaScript/node.",
   "main": "smartptr.js",
   "scripts": {

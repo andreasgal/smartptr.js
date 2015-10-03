@@ -20,6 +20,9 @@ SmartPointer.prototype = {
     this._destructor(this._ref);
     this._ref = null;
   },
+  get raw() {
+    return this._ref;
+  },
 };
 
 module.exports = SmartPointer;
