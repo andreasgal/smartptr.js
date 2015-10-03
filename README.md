@@ -13,6 +13,7 @@ function FileHandle(name) {
   this.handle = smartptr(fd, function (fd) {
     _close(fd);
   });
+  console.log(this.handle.raw); // == fd
 }
 
 FileHandle.prototype = {
