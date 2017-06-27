@@ -23,6 +23,9 @@ SmartPointer.prototype = {
   get raw() {
     return this._ref;
   },
+  isNull() {
+    return !this._ref;
+  }
 };
 
 module.exports = SmartPointer;
